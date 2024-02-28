@@ -1,0 +1,257 @@
+# === Analysis configuration file ======================================================
+
+
+# --- Configuration for `seqneut-pipeline` ---------------------------------------------
+
+seqneut-pipeline: seqneut-pipeline
+
+docs: docs
+
+description: |
+  # Sequencing-based neutralization assays of 2021-2022 DRIVE samples versus H1N1 influenza libraries
+  Study by Loes et al of samples from the DRIVE cohort using sequencing-based neutralization assay developed in the Bloom lab.
+
+  The numerical data and computer code are at [https://github.com/jbloomlab/flu_seqneut_DRIVE_2021-22_repeat_vax](https://github.com/jbloomlab/flu_seqneut_DRIVE_2021-22_repeat_vax)
+
+viral_libraries:
+  # The following originally designed barcodes were dropped from `pdmH1N1_lib2023_loes` as
+  # they were missing in library: AAAACAGTATAGAAGA, AATCTCCTCACGCAGC, ATGCAATATTAAGGAA
+  pdmH1N1_lib2023_loes: data/viral_libraries/pdmH1N1_lib2023_loes.csv
+
+#The following files are for calculating initial pooling of library
+initial_pooling: data/initialpool/2022_pdmH1N1library_initialPool.csv
+
+viral_strain_plot_order: data/viral_strain_plot_order.csv
+
+neut_standard_sets:
+  loes2023: data/neut_standard_sets/loes2023_neut_standards.csv
+
+illumina_barcode_parser_params:
+  upstream: CTCCCTACAATGTCGGATTTGTATTTAATAG
+  downstream: ''
+  minq: 20
+  upstream_mismatch: 4
+  bc_orientation: R2
+
+default_process_plate_qc_thresholds: &default_process_plate_qc_thresholds
+  avg_barcode_counts_per_well: 1000
+  min_neut_standard_frac_per_well: 0.005
+  no_serum_per_viral_barcode_filters:
+    min_frac: 0.0005
+    max_fold_change: 4
+    max_wells: 2
+  per_neut_standard_barcode_filters:
+    min_frac: 0.005
+    max_fold_change: 4
+    max_wells: 2
+  min_neut_standard_count_per_well: 1000
+  min_no_serum_count_per_viral_barcode_well: 500
+  max_frac_infectivity_per_viral_barcode_well: 5
+  min_dilutions_per_barcode_serum_replicate: 6
+
+default_process_plate_curvefit_params: &default_process_plate_curvefit_params
+  frac_infectivity_ceiling: 1
+  fixtop: false
+  fixbottom: 0
+
+default_process_plate_curvefit_qc:  &default_process_plate_curvefit_qc
+  max_frac_infectivity_at_least: 0.5
+  min_R2: 0.6
+  serum_replicates_ignore_curvefit_qc: []
+  barcode_serum_replicates_ignore_curvefit_qc: []
+
+plates:
+
+  plate1:
+    date: 2023-08-01
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate1_samples.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate2:
+    date: 2023-08-01
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate2_samples.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate3:
+    date: 2023-08-02
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate3_samples.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate4:
+    date: 2023-08-02
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate4_samples.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate5:
+    date: 2023-08-04
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate5_samples.csv
+    manual_drops:
+      barcode_serum_replicates:
+        - [TCTGTTCCGGCCCGAA, D10042d182]  #curve slope is incongruous with other barcodes
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate6:
+    date: 2023-08-04
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate6_samples.csv
+    manual_drops:
+      barcode_wells:
+        - [TAATGAGCTTTATGGT, F5]
+      barcode_serum_replicates:
+        - [ACGACATGATCAAACG, D10212d182]
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate7:
+    date: 2023-08-05
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate7_samples.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate8:
+    date: 2023-08-05
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate8_samples.csv
+    manual_drops:
+      barcode_wells:
+        - [TAGTATAATAGAGCAG, D5]
+        - [CAGTTCTGCGACCAGC, D9]
+      barcode_serum_replicates:
+        - [ACGGAATCCCCTGAGA, D10396d0]  #curve slope is incongruous with other barcodes
+        - [GGATAAGAAAACTACT, D10396d0]  #curve slope is incongruous with other barcodes
+        - [GTAACATTATACGATT, D10396d0]  #curve slope is incongruous with other barcodes
+        - [GACTCAATAATCACAC, D10396d0]  #curve slope is incongruous with other barcodes
+        - [CTATTAATCATGCAAA, D10396d0]  #curve slope is incongruous with other barcodes
+        - [TGGAATCGTCACCGAT, D10396d30]  #curve slope is incongruous with other barcodes
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate9:
+    date: 2023-08-05
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate9_samples.csv
+    manual_drops:
+      barcode_serum_replicates:
+        - [CGGATAAAAATGATAT, D10417d30]  #curve slope is incongruous with other barcodes
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate10:
+    date: 2023-08-06
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate10_samples.csv
+    manual_drops:
+      barcode_serum_replicates:
+        - [CGGATAAAAATGATAT, D10041d30]  #curve slope is incongruous with other barcodes
+        - [GTTTGACAATCACTAC, D10041d30]  #curve slope is incongruous with other barcodes
+        - [AGCAGCCTGAAAATAT, D10175d30]  #curve slope is incongruous with other barcodes
+        - [GACTCAATAATCACAC, D10175d182]  #curve slope is incongruous with other barcodes
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate11:
+    date: 2023-09-26
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate11_samples.csv
+    manual_drops:
+      barcode_serum_replicates:
+        - [ACGGAATCCCCTGAGA, D10041d30]  #curve slope is incongruous with other barcodes
+        - [GATCCGTACTTTGATT, D10256d0]  #curve slope is incongruous with other barcode
+        - [CATCAACCGCCATTTC, D10256d0]  #curve slope is incongruous with other barcode
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+#  plate12 removed due to multiplexing issue
+
+  plate13:
+    date: 2023-12-01
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate13_samples.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+default_serum_titer_as: midpoint
+
+default_serum_qc_thresholds: &default_serum_qc_thresholds
+  min_replicates: 2
+  max_fold_change_from_median: 10
+  viruses_ignore_qc: []
+
+sera_override_defaults: {}
