@@ -1,0 +1,7 @@
+wells:
+  H1: avg_barcode_counts_per_well
+barcodes: {}
+barcode_wells: {}
+barcode_serum_replicates:
+  CCTTTCTCAAAACATA D10042d0: min_R2
+serum_replicates: {}

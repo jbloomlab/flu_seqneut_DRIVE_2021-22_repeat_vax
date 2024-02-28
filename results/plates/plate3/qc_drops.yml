@@ -1,0 +1,16 @@
+wells:
+  F1: avg_barcode_counts_per_well
+barcodes: {}
+barcode_wells:
+  ATAGAATCGCAAATTA E11: max_frac_infectivity_per_viral_barcode_well
+barcode_serum_replicates:
+  AACGTTAACAAATGAA D10107d30: max_frac_infectivity_at_least
+  AAGAGAAATATTCGCT D10107d30: max_frac_infectivity_at_least
+  CATGTGAATTCGCCCA D10107d30: max_frac_infectivity_at_least
+  GAAGAATGGTTTTCTG D10107d30: max_frac_infectivity_at_least
+  GACACAGAACCCATGC D10107d30: max_frac_infectivity_at_least
+  GATCTAATAATACGGC D10107d30: max_frac_infectivity_at_least
+  TACCGTATAATTAAAA D10107d30: max_frac_infectivity_at_least
+  TCGAGAACACCCATAA D10107d30: max_frac_infectivity_at_least
+  TGAGGATAATCACAAG D10107d30: max_frac_infectivity_at_least
+serum_replicates: {}

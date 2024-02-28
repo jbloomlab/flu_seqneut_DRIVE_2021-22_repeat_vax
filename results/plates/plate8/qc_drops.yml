@@ -1,0 +1,18 @@
+wells: {}
+barcodes: {}
+barcode_wells:
+  TAGTATAATAGAGCAG D5: manual_drop
+  CAGTTCTGCGACCAGC D9: manual_drop
+  CGGATAAAAATGATAT F9: max_frac_infectivity_per_viral_barcode_well
+barcode_serum_replicates:
+  ACGGAATCCCCTGAGA D10396d0: manual_drop
+  GGATAAGAAAACTACT D10396d0: manual_drop
+  GTAACATTATACGATT D10396d0: manual_drop
+  GACTCAATAATCACAC D10396d0: manual_drop
+  CTATTAATCATGCAAA D10396d0: manual_drop
+  TGGAATCGTCACCGAT D10396d30: manual_drop
+  AGCAGCCTGAAAATAT D10066d0: min_R2
+  TAGTATAATAGAGCAG D10066d0: min_R2
+  CATGTGAATTCGCCCA D10244d182: min_R2
+  TAGTATAATAGAGCAG D10396d0: min_R2
+serum_replicates: {}
