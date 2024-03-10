@@ -1,7 +1,8 @@
 # Sequencing-based neutralization assays of 2021-2022 DRIVE samples versus H1N1 influenza libraries
 
 Sequencing-based neutralization to analyze titers of human serum samples from the DRIVE cohort against H1N1 virus after vaccination of individuals with one or two prior vaccinations.
-Study by **add Loes et al pre-print when available**.
+
+Study by [Loes et al (2024)](https://doi.org/10.1101/2024.03.08.584176).
 
 The final titers for each serum-virus pair are in [results/aggregated_titers/titers.csv](results/aggregated_titers/titers.csv).
 The [./results/](results) also contains additional more detailed files with the per-viral-barcode counts for each sample, the fraction infectivities used to fit the neutralization curves, and details on the curve fits and titers for each individual replicate.
