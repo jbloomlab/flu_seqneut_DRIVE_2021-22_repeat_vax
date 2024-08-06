@@ -3,5 +3,28 @@ wells:
 barcodes: {}
 barcode_wells: {}
 barcode_serum_replicates:
-  CCTTTCTCAAAACATA D10042d0: min_R2
+  ACATTTCCCTCGATAT D10042d0: goodness_of_fit
+  AGTGTCCCTAAGAGGC D10042d0: goodness_of_fit
+  CAGTTCTGCGACCAGC D10042d0: goodness_of_fit
+  CATCAACCGCCATTTC D10042d0: goodness_of_fit
+  CCAGTTCCCTTCGATG D10042d0: goodness_of_fit
+  CCCTATGCTGCGTATT D10042d0: goodness_of_fit
+  CCTTTCTCAAAACATA D10042d0: goodness_of_fit
+  GCCCAAGTAGGTGCAA D10042d0: goodness_of_fit
+  GTAACATTATACGATT D10042d0: goodness_of_fit
+  TCTGCTAAACTAAGTA D10042d0: goodness_of_fit
+  TCTGTTCCGGCCCGAA D10042d0: goodness_of_fit
+  TTACCGTCTACGCATA D10042d0: goodness_of_fit
+  TTCACTAAGATTTCAT D10042d0: goodness_of_fit
+  GCCGGAGGGCATTTTC D10042d182: goodness_of_fit
+  ACGGAATCCCCTGAGA D10396d0: goodness_of_fit
+  CAAATATATCTTCATG D10396d0: goodness_of_fit
+  CATCAACCGCCATTTC D10396d0: goodness_of_fit
+  GAGCTCTAAAGCAACA D10396d0: goodness_of_fit
+  GATAGAAATACCAGGA D10396d0: goodness_of_fit
+  GCCGGAGGGCATTTTC D10396d0: goodness_of_fit
+  GTAGCTATAACTAATA D10396d0: goodness_of_fit
+  GTTTGACAATCACTAC D10396d0: goodness_of_fit
+  TGGAATCGTCACCGAT D10396d0: goodness_of_fit
+  TTATGATCTAAACAGA D10396d0: goodness_of_fit
 serum_replicates: {}

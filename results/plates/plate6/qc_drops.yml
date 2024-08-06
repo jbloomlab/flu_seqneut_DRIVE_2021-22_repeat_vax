@@ -17,17 +17,26 @@ barcode_wells:
   CAGTTCTGCGACCAGC E8: max_frac_infectivity_per_viral_barcode_well
   TAATTACATTGCGGTT E11: max_frac_infectivity_per_viral_barcode_well
   AGTGTCCCTAAGAGGC G7: max_frac_infectivity_per_viral_barcode_well
-  AACTCCGCAGACACTG G7: max_frac_infectivity_per_viral_barcode_well
-  TTATGATCTAAACAGA G7: max_frac_infectivity_per_viral_barcode_well
-  CCTCAAAATAACAAGC G7: max_frac_infectivity_per_viral_barcode_well
   TCTGTTCCGGCCCGAA G7: max_frac_infectivity_per_viral_barcode_well
+  TTATGATCTAAACAGA G7: max_frac_infectivity_per_viral_barcode_well
+  GAGACGTACGAAATTA G7: max_frac_infectivity_per_viral_barcode_well
+  CCTCAAAATAACAAGC G7: max_frac_infectivity_per_viral_barcode_well
+  AACTCCGCAGACACTG G7: max_frac_infectivity_per_viral_barcode_well
   TCTGCTAAACTAAGTA G7: max_frac_infectivity_per_viral_barcode_well
   TCCTTGTAATTCAACT G7: max_frac_infectivity_per_viral_barcode_well
-  GAGACGTACGAAATTA G7: max_frac_infectivity_per_viral_barcode_well
   ACGGAATCCCCTGAGA G7: max_frac_infectivity_per_viral_barcode_well
   GAAGAAACTATAACCA G11: max_frac_infectivity_per_viral_barcode_well
   AATAAGTATACGGGAT G11: max_frac_infectivity_per_viral_barcode_well
   GCTGCGCCTAACATAA H11: max_frac_infectivity_per_viral_barcode_well
 barcode_serum_replicates:
   ACGACATGATCAAACG D10212d182: manual_drop
+  TCTGCTAAACTAAGTA D10193d0: goodness_of_fit
+  CAGTTCTGCGACCAGC D10193d30: goodness_of_fit
+  CGGATAAAAATGATAT D10193d30: goodness_of_fit
+  GAGCTCTAAAGCAACA D10212d0: goodness_of_fit
+  TAGTATAATAGAGCAG D10212d0: goodness_of_fit
+  ACAAAAGTACCTCTAC D10256d0: goodness_of_fit
+  ATCCGATTTAAAGGCA D10256d0: goodness_of_fit
+  GATCTAATAATACGGC D10256d0: goodness_of_fit
+  GCAACGCCAAATAATT D10256d0: goodness_of_fit
 serum_replicates: {}

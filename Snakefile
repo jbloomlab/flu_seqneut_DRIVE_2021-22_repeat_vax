@@ -68,7 +68,7 @@ rule process_barcoderatios:
 rule plot_specific_sera:
     """Plot curves for a few specific sera."""
     input:
-        curvefits_pickle="results/aggregated_titers/curvefits.pickle",
+        curvefits_pickle="results/aggregated_titers/curvefits_DRIVE.pickle",
     output:
         plot_pdf="results/plots_for_paper/plot_specific_sera/curves.pdf",
     log:
