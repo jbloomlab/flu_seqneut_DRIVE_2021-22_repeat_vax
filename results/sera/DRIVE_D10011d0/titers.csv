@@ -13,7 +13,7 @@ DRIVE,D10011d0,A/Cote_DIvoire/1448/2021,169.9,interpolated,78.33,3,midpoint
 DRIVE,D10011d0,A/England/220200318/2022,340.2,interpolated,53.31,3,midpoint
 DRIVE,D10011d0,A/Ghana/138/2020,436,interpolated,77.01,3,midpoint
 DRIVE,D10011d0,A/Ghana/2080/2020,408.1,interpolated,54.38,3,midpoint
-DRIVE,D10011d0,A/Hawaii/70/2019,244.9,interpolated,46.93,3,midpoint
+DRIVE,D10011d0,A/Hawaii/70/2019,186.6,interpolated,46.22,4,midpoint
 DRIVE,D10011d0,A/India-PUN-NIV328484/2021,395.7,interpolated,78.8,3,midpoint
 DRIVE,D10011d0,A/India-Pune-Nivcov2221170/2022,194,interpolated,20.93,2,midpoint
 DRIVE,D10011d0,A/India/Pun-NIV312851/2021,189.9,interpolated,34.78,3,midpoint
@@ -23,12 +23,12 @@ DRIVE,D10011d0,A/Newcastle/2/2022,234.2,interpolated,64.75,3,midpoint
 DRIVE,D10011d0,A/Niger/10217/2021,242.8,interpolated,26.55,3,midpoint
 DRIVE,D10011d0,A/Nimes/871/2021,362.4,interpolated,58.94,3,midpoint
 DRIVE,D10011d0,A/Norway/25089/2022,304.8,interpolated,48.43,3,midpoint
-DRIVE,D10011d0,A/Paris/30353/2021,343.5,interpolated,94.89,2,midpoint
+DRIVE,D10011d0,A/Paris/30353/2021,438.4,interpolated,72.38,3,midpoint
 DRIVE,D10011d0,A/Paris/31196/2021,394.5,interpolated,89.21,3,midpoint
 DRIVE,D10011d0,A/Perth/1/2022,238.3,interpolated,51.05,3,midpoint
 DRIVE,D10011d0,A/SouthAfrica/R14850/2021,281.4,interpolated,139.7,3,midpoint
 DRIVE,D10011d0,A/SouthAfrica/R16462/2021,535.1,interpolated,95.16,3,midpoint
-DRIVE,D10011d0,A/Sydney/43/2022,347.3,interpolated,101.1,2,midpoint
+DRIVE,D10011d0,A/Sydney/43/2022,246.2,interpolated,105.2,3,midpoint
 DRIVE,D10011d0,A/Togo/0274/2021,273.1,interpolated,80.91,3,midpoint
 DRIVE,D10011d0,A/Togo/0304/2021,212.4,interpolated,42.15,3,midpoint
 DRIVE,D10011d0,A/Togo/845/2020,387.4,interpolated,125.9,3,midpoint

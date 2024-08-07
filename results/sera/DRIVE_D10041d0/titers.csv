@@ -2,7 +2,7 @@ group,serum,virus,titer,titer_bound,titer_sem,n_replicates,titer_as
 DRIVE,D10041d0,A/Bangladesh/2221/2021,202.2,interpolated,24.9,6,midpoint
 DRIVE,D10041d0,A/Bangladesh/3210810034/2021,196.4,interpolated,27.82,4,midpoint
 DRIVE,D10041d0,A/Bangladesh/8002/2021,153.9,interpolated,16.43,6,midpoint
-DRIVE,D10041d0,A/Bangladesh/8036/2021,296.3,interpolated,34.41,4,midpoint
+DRIVE,D10041d0,A/Bangladesh/8036/2021,252,interpolated,31.13,5,midpoint
 DRIVE,D10041d0,A/Belgium/H0017/2022,487,interpolated,26.91,6,midpoint
 DRIVE,D10041d0,A/Belgium/H0038/2022,478,interpolated,42.14,6,midpoint
 DRIVE,D10041d0,A/Brisbane/02/2018,727.2,interpolated,109.1,7,midpoint
@@ -24,11 +24,11 @@ DRIVE,D10041d0,A/Niger/10217/2021,200.9,interpolated,15.9,6,midpoint
 DRIVE,D10041d0,A/Nimes/871/2021,513.2,interpolated,29.43,6,midpoint
 DRIVE,D10041d0,A/Norway/25089/2022,456,interpolated,46.35,6,midpoint
 DRIVE,D10041d0,A/Paris/30353/2021,257.3,interpolated,60.27,6,midpoint
-DRIVE,D10041d0,A/Paris/31196/2021,546.9,interpolated,100.5,5,midpoint
+DRIVE,D10041d0,A/Paris/31196/2021,529.4,interpolated,88.81,6,midpoint
 DRIVE,D10041d0,A/Perth/1/2022,235.8,interpolated,54.55,6,midpoint
 DRIVE,D10041d0,A/SouthAfrica/R14850/2021,467.2,interpolated,42.18,6,midpoint
-DRIVE,D10041d0,A/SouthAfrica/R16462/2021,240.5,interpolated,73.49,5,midpoint
-DRIVE,D10041d0,A/Sydney/43/2022,191.8,interpolated,40.53,5,midpoint
+DRIVE,D10041d0,A/SouthAfrica/R16462/2021,221.7,interpolated,62.35,6,midpoint
+DRIVE,D10041d0,A/Sydney/43/2022,206.1,interpolated,33.61,6,midpoint
 DRIVE,D10041d0,A/Togo/0274/2021,513.5,interpolated,57.36,6,midpoint
 DRIVE,D10041d0,A/Togo/0304/2021,427.6,interpolated,25.97,6,midpoint
 DRIVE,D10041d0,A/Togo/845/2020,402.7,interpolated,56.48,6,midpoint

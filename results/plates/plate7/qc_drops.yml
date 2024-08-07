@@ -4,16 +4,6 @@ barcode_wells:
   AGTCCTATCCTCAAAT C8: max_frac_infectivity_per_viral_barcode_well
 barcode_serum_replicates:
   TCTGCTAAACTAAGTA D10007d0: goodness_of_fit
-  CGGATAAAAATGATAT D10007d182: goodness_of_fit
-  GAGACGTACGAAATTA D10007d182: goodness_of_fit
-  GATCTAATAATACGGC D10007d182: goodness_of_fit
-  TCCTTGTAATTCAACT D10007d182: goodness_of_fit
-  TTGTCCCGAGACAACA D10007d182: goodness_of_fit
-  ACGGAATCCCCTGAGA D10426d0: goodness_of_fit
-  AGTGTCCCTAAGAGGC D10426d0: goodness_of_fit
   CAGTTCTGCGACCAGC D10426d0: goodness_of_fit
-  CCCTATGCTGCGTATT D10426d0: goodness_of_fit
   CCTTTCTCAAAACATA D10426d0: goodness_of_fit
-  GATAGAAATACCAGGA D10426d0: goodness_of_fit
-  TTCACTAAGATTTCAT D10426d0: goodness_of_fit
 serum_replicates: {}

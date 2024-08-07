@@ -9,43 +9,8 @@ barcode_serum_replicates:
   GTTTGACAATCACTAC D10041d30: manual_drop
   AGCAGCCTGAAAATAT D10175d30: manual_drop
   GACTCAATAATCACAC D10175d182: manual_drop
-  CAGTTCTGCGACCAGC D10041d0: goodness_of_fit
-  TAGTATAATAGAGCAG D10041d0: goodness_of_fit
-  ACGACATGATCAAACG D10041d30: goodness_of_fit
-  CACCATTAAAGAGGTA D10041d30: goodness_of_fit
-  CATCAACCGCCATTTC D10041d30: goodness_of_fit
-  CTAGCAGATTGTATAA D10041d30: goodness_of_fit
-  GAACTGGCGTCAATCA D10041d30: goodness_of_fit
-  GACCAACTGTGGTACA D10041d30: goodness_of_fit
-  GCATGGATCCTTTACT D10041d30: goodness_of_fit
+  TAGTATAATAGAGCAG D10175d182: max_frac_infectivity_at_least
   TAGTATAATAGAGCAG D10041d30: goodness_of_fit
-  TCTGTTCCGGCCCGAA D10041d30: goodness_of_fit
-  CGGATAAAAATGATAT D10175d182: goodness_of_fit
-  AAGAGAAATATTCGCT D10384d0: goodness_of_fit
-  CCCTATGCTGCGTATT D10384d0: goodness_of_fit
-  CTATTAATCATGCAAA D10384d0: goodness_of_fit
-  GTTTGACAATCACTAC D10384d0: goodness_of_fit
-  TAATTACATTGCGGTT D10384d0: goodness_of_fit
-  TAGTATAATAGAGCAG D10384d0: goodness_of_fit
-  ACGGGGCCCAGGTAAT D10384d182: goodness_of_fit
-  AGTGTCCCTAAGAGGC D10384d182: goodness_of_fit
-  CAGTTCTGCGACCAGC D10384d182: goodness_of_fit
-  CCAGTTCCCTTCGATG D10384d182: goodness_of_fit
   CGGATAAAAATGATAT D10384d182: goodness_of_fit
-  CGTTTAAACAATGAAG D10384d182: goodness_of_fit
-  CTATTAATCATGCAAA D10384d182: goodness_of_fit
-  CTGCACGAGAGACTTC D10384d182: goodness_of_fit
-  GACTCAATAATCACAC D10384d182: goodness_of_fit
-  GAGACGTACGAAATTA D10384d182: goodness_of_fit
-  GCAACGCCAAATAATT D10384d182: goodness_of_fit
-  GTTTGACAATCACTAC D10384d182: goodness_of_fit
-  TAGTATAATAGAGCAG D10384d182: goodness_of_fit
-  TCTGTTCCGGCCCGAA D10384d182: goodness_of_fit
-  TTGGGCACTAAATTAA D10384d182: goodness_of_fit
-  TTGGGGAAATATATAA D10384d182: goodness_of_fit
-  TTGTCCCGAGACAACA D10384d182: goodness_of_fit
-  AAGAGAAATATTCGCT D10384d30: goodness_of_fit
   CGGATAAAAATGATAT D10384d30: goodness_of_fit
-  GTTTGACAATCACTAC D10384d30: goodness_of_fit
-  TCTGCTAAACTAAGTA D10384d30: goodness_of_fit
 serum_replicates: {}

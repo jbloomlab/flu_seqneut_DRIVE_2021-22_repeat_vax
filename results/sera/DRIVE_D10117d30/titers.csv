@@ -1,8 +1,8 @@
 group,serum,virus,titer,titer_bound,titer_sem,n_replicates,titer_as
-DRIVE,D10117d30,A/Bangladesh/2221/2021,182,interpolated,10.05,2,midpoint
+DRIVE,D10117d30,A/Bangladesh/2221/2021,171.9,interpolated,19.86,3,midpoint
 DRIVE,D10117d30,A/Bangladesh/3210810034/2021,183.6,interpolated,6.836,2,midpoint
 DRIVE,D10117d30,A/Bangladesh/8002/2021,110.3,interpolated,15.68,3,midpoint
-DRIVE,D10117d30,A/Bangladesh/8036/2021,178.9,interpolated,9.134,2,midpoint
+DRIVE,D10117d30,A/Bangladesh/8036/2021,169.8,interpolated,6.414,3,midpoint
 DRIVE,D10117d30,A/Belgium/H0017/2022,155.3,interpolated,7.996,3,midpoint
 DRIVE,D10117d30,A/Belgium/H0038/2022,157.9,interpolated,7.101,3,midpoint
 DRIVE,D10117d30,A/Brisbane/02/2018,123.6,interpolated,16.81,4,midpoint
@@ -14,7 +14,7 @@ DRIVE,D10117d30,A/England/220200318/2022,225.4,interpolated,23.98,3,midpoint
 DRIVE,D10117d30,A/Ghana/138/2020,173.9,interpolated,31.49,3,midpoint
 DRIVE,D10117d30,A/Ghana/2080/2020,174,interpolated,10.62,3,midpoint
 DRIVE,D10117d30,A/Hawaii/70/2019,172.6,interpolated,14.14,4,midpoint
-DRIVE,D10117d30,A/India-PUN-NIV328484/2021,152.4,interpolated,21.37,2,midpoint
+DRIVE,D10117d30,A/India-PUN-NIV328484/2021,173.8,interpolated,17.55,3,midpoint
 DRIVE,D10117d30,A/India-Pune-Nivcov2221170/2022,131.7,interpolated,0.8711,2,midpoint
 DRIVE,D10117d30,A/India/Pun-NIV312851/2021,136.9,interpolated,13.13,3,midpoint
 DRIVE,D10117d30,A/Michigan/19/2021,177.8,interpolated,25.18,3,midpoint
