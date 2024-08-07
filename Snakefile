@@ -68,7 +68,7 @@ rule process_barcoderatios:
 rule plot_specific_sera:
     """Plot curves for a few specific sera."""
     input:
-        curvefits_pickle="results/aggregated_titers/curvefits.pickle",
+        curvefits_pickle="results/aggregated_titers/curvefits_DRIVE.pickle",
     output:
         plot_pdf="results/plots_for_paper/plot_specific_sera/curves.pdf",
     log:
@@ -81,7 +81,8 @@ rule plot_specific_sera:
 rule summarize_titers:
     """Make titer plots for paper."""
     input:
-        input_titers="results/aggregated_titers/titers.csv",
+        input_titers="results/aggregated_titers/titers_DRIVE.csv",
+        input_titers_old = "results/oldpipeline_titersfile/titers.csv",
         viral_strain_plot_order=config["viral_strain_plot_order"],
         sample_metadata_file="data/sample_metadata_forplots.csv",
         HAI_titers_file="data/DRIVE_HAI_titers_Hawaii_Y2_H1N1.csv"

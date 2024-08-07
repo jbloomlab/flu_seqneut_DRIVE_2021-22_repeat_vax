@@ -3,5 +3,5 @@ wells:
 barcodes: {}
 barcode_wells: {}
 barcode_serum_replicates:
-  CCTTTCTCAAAACATA D10042d0: min_R2
+  CCTTTCTCAAAACATA D10042d0: goodness_of_fit
 serum_replicates: {}

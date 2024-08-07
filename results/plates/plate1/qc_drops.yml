@@ -1,5 +1,6 @@
 wells: {}
 barcodes: {}
 barcode_wells: {}
-barcode_serum_replicates: {}
+barcode_serum_replicates:
+  CCTTTCTCAAAACATA D10002d0: goodness_of_fit
 serum_replicates: {}

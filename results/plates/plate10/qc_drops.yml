@@ -10,5 +10,7 @@ barcode_serum_replicates:
   AGCAGCCTGAAAATAT D10175d30: manual_drop
   GACTCAATAATCACAC D10175d182: manual_drop
   TAGTATAATAGAGCAG D10175d182: max_frac_infectivity_at_least
-  CGGATAAAAATGATAT D10384d30: min_R2
+  TAGTATAATAGAGCAG D10041d30: goodness_of_fit
+  CGGATAAAAATGATAT D10384d182: goodness_of_fit
+  CGGATAAAAATGATAT D10384d30: goodness_of_fit
 serum_replicates: {}

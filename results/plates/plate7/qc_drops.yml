@@ -3,5 +3,7 @@ barcodes: {}
 barcode_wells:
   AGTCCTATCCTCAAAT C8: max_frac_infectivity_per_viral_barcode_well
 barcode_serum_replicates:
-  TCTGCTAAACTAAGTA D10007d0: min_R2
+  TCTGCTAAACTAAGTA D10007d0: goodness_of_fit
+  CAGTTCTGCGACCAGC D10426d0: goodness_of_fit
+  CCTTTCTCAAAACATA D10426d0: goodness_of_fit
 serum_replicates: {}

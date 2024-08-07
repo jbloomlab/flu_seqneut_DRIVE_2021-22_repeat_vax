@@ -4,7 +4,7 @@ Sequencing-based neutralization to analyze titers of human serum samples from th
 
 Study by [Loes et al (2024)](https://doi.org/10.1101/2024.03.08.584176).
 
-The final titers for each serum-virus pair are in [results/aggregated_titers/titers.csv](results/aggregated_titers/titers.csv).
+The final titers for each serum-virus pair are in [results/aggregated_titers/titers_DRIVE.csv](results/aggregated_titers/titers_DRIVE.csv).
 The [./results/](results) also contains additional more detailed files with the per-viral-barcode counts for each sample, the fraction infectivities used to fit the neutralization curves, and details on the curve fits and titers for each individual replicate.
 
 HTML documentation of analysis steps is rendered via GitHub Pages at [https://jbloomlab.github.io/flu_seqneut_DRIVE_2021-22_repeat_vax/](https://jbloomlab.github.io/flu_seqneut_DRIVE_2021-22_repeat_vax/)

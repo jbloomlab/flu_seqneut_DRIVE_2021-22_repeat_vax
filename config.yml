@@ -29,7 +29,7 @@ neut_standard_sets:
   loes2023: data/neut_standard_sets/loes2023_neut_standards.csv
 
 illumina_barcode_parser_params:
-  upstream: CTCCCTACAATGTCGGATTTGTATTTAATAG
+  upstream: CCTACAATGTCGGATTTGTATTTAATAG
   downstream: ''
   minq: 20
   upstream_mismatch: 4
@@ -53,18 +53,22 @@ default_process_plate_qc_thresholds: &default_process_plate_qc_thresholds
 
 default_process_plate_curvefit_params: &default_process_plate_curvefit_params
   frac_infectivity_ceiling: 1
-  fixtop: false
+  fixtop: [0.6,1]
   fixbottom: 0
+  fixslope: [0.8, 10]
 
 default_process_plate_curvefit_qc:  &default_process_plate_curvefit_qc
   max_frac_infectivity_at_least: 0.5
-  min_R2: 0.6
+  goodness_of_fit:
+    min_R2: 0.75
+    max_RMSD: 0.2
   serum_replicates_ignore_curvefit_qc: []
   barcode_serum_replicates_ignore_curvefit_qc: []
 
 plates:
 
   plate1:
+    group: DRIVE
     date: 2023-08-01
     viral_library: pdmH1N1_lib2023_loes
     neut_standard_set: loes2023
@@ -78,6 +82,7 @@ plates:
       <<: *default_process_plate_curvefit_qc
 
   plate2:
+    group: DRIVE
     date: 2023-08-01
     viral_library: pdmH1N1_lib2023_loes
     neut_standard_set: loes2023
@@ -91,6 +96,7 @@ plates:
       <<: *default_process_plate_curvefit_qc
 
   plate3:
+    group: DRIVE
     date: 2023-08-02
     viral_library: pdmH1N1_lib2023_loes
     neut_standard_set: loes2023
@@ -104,6 +110,7 @@ plates:
       <<: *default_process_plate_curvefit_qc
 
   plate4:
+    group: DRIVE
     date: 2023-08-02
     viral_library: pdmH1N1_lib2023_loes
     neut_standard_set: loes2023
@@ -117,6 +124,7 @@ plates:
       <<: *default_process_plate_curvefit_qc
 
   plate5:
+    group: DRIVE
     date: 2023-08-04
     viral_library: pdmH1N1_lib2023_loes
     neut_standard_set: loes2023
@@ -132,6 +140,7 @@ plates:
       <<: *default_process_plate_curvefit_qc
 
   plate6:
+    group: DRIVE
     date: 2023-08-04
     viral_library: pdmH1N1_lib2023_loes
     neut_standard_set: loes2023
@@ -149,6 +158,7 @@ plates:
       <<: *default_process_plate_curvefit_qc
 
   plate7:
+    group: DRIVE
     date: 2023-08-05
     viral_library: pdmH1N1_lib2023_loes
     neut_standard_set: loes2023
@@ -162,6 +172,7 @@ plates:
       <<: *default_process_plate_curvefit_qc
 
   plate8:
+    group: DRIVE
     date: 2023-08-05
     viral_library: pdmH1N1_lib2023_loes
     neut_standard_set: loes2023
@@ -185,6 +196,7 @@ plates:
       <<: *default_process_plate_curvefit_qc
 
   plate9:
+    group: DRIVE
     date: 2023-08-05
     viral_library: pdmH1N1_lib2023_loes
     neut_standard_set: loes2023
@@ -200,6 +212,7 @@ plates:
       <<: *default_process_plate_curvefit_qc
 
   plate10:
+    group: DRIVE
     date: 2023-08-06
     viral_library: pdmH1N1_lib2023_loes
     neut_standard_set: loes2023
@@ -218,6 +231,7 @@ plates:
       <<: *default_process_plate_curvefit_qc
 
   plate11:
+    group: DRIVE
     date: 2023-09-26
     viral_library: pdmH1N1_lib2023_loes
     neut_standard_set: loes2023
@@ -237,6 +251,7 @@ plates:
 #  plate12 removed due to multiplexing issue
 
   plate13:
+    group: DRIVE
     date: 2023-12-01
     viral_library: pdmH1N1_lib2023_loes
     neut_standard_set: loes2023
