@@ -3,7 +3,7 @@
 Sequencing-based neutralization to analyze titers of human serum samples from the DRIVE cohort against H1N1 virus after vaccination of individuals with one or two prior vaccinations.
 Study by **add Loes et al pre-print when available**.
 
-The final titers for each serum-virus pair are in [results/aggregated_titers/titers.csv](results/aggregated_titers/titers_DRIVE.csv).
+The final titers for each serum-virus pair are in [results/aggregated_titers/titers_DRIVE.csv](results/aggregated_titers/titers_DRIVE.csv).
 The [./results/](results) also contains additional more detailed files with the per-viral-barcode counts for each sample, the fraction infectivities used to fit the neutralization curves, and details on the curve fits and titers for each individual replicate.
 
 HTML documentation of analysis steps is rendered via GitHub Pages at [https://jbloomlab.github.io/flu_seqneut_DRIVE_2021-22_repeat_vax/](https://jbloomlab.github.io/flu_seqneut_DRIVE_2021-22_repeat_vax/)
