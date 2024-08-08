@@ -1,0 +1,18 @@
+wells: {}
+barcodes: {}
+barcode_wells:
+  GAGACGTACGAAATTA F1: min_no_serum_count_per_viral_barcode_well
+  CAGTTCTGCGACCAGC F1: min_no_serum_count_per_viral_barcode_well
+  GCTGCGCCTAACATAA F1: min_no_serum_count_per_viral_barcode_well
+  CGGATAAAAATGATAT F1: min_no_serum_count_per_viral_barcode_well
+  ACGGAATCCCCTGAGA F1: min_no_serum_count_per_viral_barcode_well
+  CAGTTCTGCGACCAGC E12: min_no_serum_count_per_viral_barcode_well
+  CAGTTCTGCGACCAGC F12: min_no_serum_count_per_viral_barcode_well
+  GCTGCGCCTAACATAA F12: min_no_serum_count_per_viral_barcode_well
+barcode_serum_replicates:
+  TACTCAACAAGATAAA halflibconc-1: max_frac_infectivity_at_least
+  GCAATCCCGCAATTTG halflibconc-2: max_frac_infectivity_at_least
+  GCAATCCCGCAATTTG halflibconc-1: goodness_of_fit
+  ACGGAATCCCCTGAGA halflibconc-2: goodness_of_fit
+  CGTAATACATTTAAGA halflibconc-2: goodness_of_fit
+serum_replicates: {}

@@ -1,5 +1,5 @@
 group,serum,virus,replicate,titer,titer_bound,titer_as,nt50,midpoint,top,bottom,slope
-DRIVE,D10291d0,A/Perth/1/2022,plate9-TTGGGGAAATATATAA,20,upper,midpoint,20,20,0.8924,0,9.982
+DRIVE,D10291d0,A/Perth/1/2022,plate9-TTGGGGAAATATATAA,20,upper,midpoint,20,20,0.8924,0,9.991
 DRIVE,D10291d0,A/Perth/1/2022,plate9-CTGCACGAGAGACTTC,50.96,interpolated,midpoint,51.6,50.96,0.9814,0,3.043
 DRIVE,D10291d0,A/Perth/1/2022,plate9-AGCCCCGTGAGAAGCA,48.41,interpolated,midpoint,49.48,48.41,0.9666,0,3.166
 DRIVE,D10291d0,A/India-Pune-Nivcov2221170/2022,plate9-CGTTTAAACAATGAAG,59.97,interpolated,midpoint,60.99,59.97,0.9791,0,2.523
@@ -36,7 +36,7 @@ DRIVE,D10291d0,A/Washington/23/2020,plate9-GAACTGGCGTCAATCA,68.89,interpolated,m
 DRIVE,D10291d0,A/Cote_DIvoire/1448/2021,plate9-TCGAGAACACCCATAA,35.13,interpolated,midpoint,35.85,35.13,0.965,0,3.564
 DRIVE,D10291d0,A/Cote_DIvoire/1448/2021,plate9-GTTAAACGATCTATAG,27.7,interpolated,midpoint,27.76,27.7,0.9891,0,10
 DRIVE,D10291d0,A/Cote_DIvoire/1448/2021,plate9-GTCCGTTGATAAAGAG,64.18,interpolated,midpoint,64.32,64.18,0.9897,0,10
-DRIVE,D10291d0,A/Bangladesh/8002/2021,plate9-GCAACGCCAAATAATT,61.8,interpolated,midpoint,62.82,61.8,0.9381,0,8.135
+DRIVE,D10291d0,A/Bangladesh/8002/2021,plate9-GCAACGCCAAATAATT,61.8,interpolated,midpoint,62.81,61.8,0.9381,0,8.136
 DRIVE,D10291d0,A/Bangladesh/8002/2021,plate9-AGTGTCCCTAAGAGGC,58.33,interpolated,midpoint,59.76,58.33,0.9425,0,5.016
 DRIVE,D10291d0,A/Bangladesh/8002/2021,plate9-TCTGCTAAACTAAGTA,41.06,interpolated,midpoint,42.9,41.06,0.9341,0,3.218
 DRIVE,D10291d0,A/Sydney/43/2022,plate9-TACGGACATTCTTAAC,65.92,interpolated,midpoint,66.28,65.92,0.9736,0,10

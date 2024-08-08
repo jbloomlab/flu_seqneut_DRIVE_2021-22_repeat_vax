@@ -28,17 +28,14 @@ barcode_serum_replicates:
   CCTTTCTCAAAACATA D10042d182: max_frac_infectivity_at_least
   CGCCTAATGTTAATAA D10042d182: max_frac_infectivity_at_least
   TTCACTAAGATTTCAT D10042d182: max_frac_infectivity_at_least
+  AATAAGTATACGGGAT D10042d182: goodness_of_fit
   ACATGAATTCAGACGG D10042d182: goodness_of_fit
-  AGCAGCCTGAAAATAT D10042d182: goodness_of_fit
   CACCATTAAAGAGGTA D10042d182: goodness_of_fit
   CCCTATGCTGCGTATT D10042d182: goodness_of_fit
   CTAGCAGATTGTATAA D10042d182: goodness_of_fit
-  CTATTAATCATGCAAA D10042d182: goodness_of_fit
-  GAGACGTACGAAATTA D10042d182: goodness_of_fit
   GTTCCTTTAAGCCAAA D10042d182: goodness_of_fit
   GTTTGACAATCACTAC D10042d182: goodness_of_fit
   TAGTATAATAGAGCAG D10042d182: goodness_of_fit
-  TTGTCCCGAGACAACA D10042d182: goodness_of_fit
   AAGAGAAATATTCGCT D10253d0: goodness_of_fit
   CCTTTCTCAAAACATA D10253d0: goodness_of_fit
   CTAGCAGATTGTATAA D10253d0: goodness_of_fit

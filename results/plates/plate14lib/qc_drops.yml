@@ -1,0 +1,7 @@
+wells: {}
+barcodes: {}
+barcode_wells:
+  TTGTCCCGAGACAACA H1: min_no_serum_count_per_viral_barcode_well
+  ACGGAATCCCCTGAGA G12: min_no_serum_count_per_viral_barcode_well
+barcode_serum_replicates: {}
+serum_replicates: {}

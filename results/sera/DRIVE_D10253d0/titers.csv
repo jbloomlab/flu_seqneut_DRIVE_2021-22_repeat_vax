@@ -1,7 +1,7 @@
 group,serum,virus,titer,titer_bound,titer_sem,n_replicates,titer_as
 DRIVE,D10253d0,A/Bangladesh/2221/2021,258.7,interpolated,58.8,2,midpoint
 DRIVE,D10253d0,A/Bangladesh/3210810034/2021,362.1,interpolated,174.3,2,midpoint
-DRIVE,D10253d0,A/Bangladesh/8002/2021,272.8,interpolated,77.19,3,midpoint
+DRIVE,D10253d0,A/Bangladesh/8002/2021,272.8,interpolated,77.17,3,midpoint
 DRIVE,D10253d0,A/Bangladesh/8036/2021,616.2,interpolated,94.66,3,midpoint
 DRIVE,D10253d0,A/Belgium/H0017/2022,302.4,interpolated,167.7,3,midpoint
 DRIVE,D10253d0,A/Belgium/H0038/2022,448.1,interpolated,59.74,3,midpoint
@@ -34,4 +34,4 @@ DRIVE,D10253d0,A/Togo/0304/2021,288.8,interpolated,86.67,3,midpoint
 DRIVE,D10253d0,A/Togo/845/2020,356.9,interpolated,130.4,3,midpoint
 DRIVE,D10253d0,A/Utah/27/2022,366.6,interpolated,32.83,3,midpoint
 DRIVE,D10253d0,A/Washington/23/2020,540,interpolated,33.83,3,midpoint
-DRIVE,D10253d0,A/Wisconsin/588/2019,386.3,interpolated,112.5,3,midpoint
+DRIVE,D10253d0,A/Wisconsin/588/2019,386.4,interpolated,112.5,3,midpoint

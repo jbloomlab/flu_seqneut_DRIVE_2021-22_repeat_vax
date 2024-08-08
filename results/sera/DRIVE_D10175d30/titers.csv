@@ -5,7 +5,7 @@ DRIVE,D10175d30,A/Bangladesh/8002/2021,6498,interpolated,557.5,3,midpoint
 DRIVE,D10175d30,A/Bangladesh/8036/2021,8473,interpolated,972.6,3,midpoint
 DRIVE,D10175d30,A/Belgium/H0017/2022,1988,interpolated,242.3,3,midpoint
 DRIVE,D10175d30,A/Belgium/H0038/2022,1.468e+04,interpolated,2127,3,midpoint
-DRIVE,D10175d30,A/Brisbane/02/2018,1.278e+04,interpolated,1965,4,midpoint
+DRIVE,D10175d30,A/Brisbane/02/2018,1.261e+04,interpolated,1991,4,midpoint
 DRIVE,D10175d30,A/Brisbane/48/2022,5323,interpolated,535.6,3,midpoint
 DRIVE,D10175d30,A/California/07/2009,1.309e+04,interpolated,1723,4,midpoint
 DRIVE,D10175d30,A/Chester/5355/2022,5494,interpolated,639.9,3,midpoint
@@ -20,11 +20,11 @@ DRIVE,D10175d30,A/India/Pun-NIV312851/2021,6638,interpolated,464.2,3,midpoint
 DRIVE,D10175d30,A/Michigan/19/2021,6459,interpolated,1271,3,midpoint
 DRIVE,D10175d30,A/Michigan/45/2015,2.483e+04,interpolated,8502,4,midpoint
 DRIVE,D10175d30,A/Newcastle/2/2022,9871,interpolated,1485,3,midpoint
-DRIVE,D10175d30,A/Niger/10217/2021,7499,interpolated,1173,3,midpoint
+DRIVE,D10175d30,A/Niger/10217/2021,7509,interpolated,1172,3,midpoint
 DRIVE,D10175d30,A/Nimes/871/2021,1.381e+04,interpolated,4923,3,midpoint
 DRIVE,D10175d30,A/Norway/25089/2022,7253,interpolated,1580,3,midpoint
 DRIVE,D10175d30,A/Paris/30353/2021,1.096e+04,interpolated,1.104e+04,3,midpoint
-DRIVE,D10175d30,A/Paris/31196/2021,1.023e+04,interpolated,3102,2,midpoint
+DRIVE,D10175d30,A/Paris/31196/2021,9908,interpolated,2785,2,midpoint
 DRIVE,D10175d30,A/Perth/1/2022,6634,interpolated,656.5,3,midpoint
 DRIVE,D10175d30,A/SouthAfrica/R14850/2021,9647,interpolated,3207,3,midpoint
 DRIVE,D10175d30,A/SouthAfrica/R16462/2021,1.622e+04,interpolated,1.609e+04,3,midpoint
@@ -34,4 +34,4 @@ DRIVE,D10175d30,A/Togo/0304/2021,1.612e+04,interpolated,3713,3,midpoint
 DRIVE,D10175d30,A/Togo/845/2020,9870,interpolated,2675,3,midpoint
 DRIVE,D10175d30,A/Utah/27/2022,5454,interpolated,2005,3,midpoint
 DRIVE,D10175d30,A/Washington/23/2020,5978,interpolated,1400,3,midpoint
-DRIVE,D10175d30,A/Wisconsin/588/2019,9713,interpolated,1488,3,midpoint
+DRIVE,D10175d30,A/Wisconsin/588/2019,9713,interpolated,1506,3,midpoint

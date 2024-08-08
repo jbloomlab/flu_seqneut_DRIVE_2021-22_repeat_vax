@@ -1,0 +1,12 @@
+wells: {}
+barcodes:
+  ACGGAATCCCCTGAGA: min_neut_standard_frac_per_well
+  CACCATTAAAGAGGTA: min_neut_standard_frac_per_well
+  CGGCGTATCGTTCACA: min_neut_standard_frac_per_well
+  CTAGCAGATTGTATAA: min_neut_standard_frac_per_well
+barcode_wells:
+  CAGTTCTGCGACCAGC C1: min_no_serum_count_per_viral_barcode_well
+barcode_serum_replicates:
+  CCCTATGCTGCGTATT no5a1-1: max_frac_infectivity_at_least
+  TCCTTGTAATTCAACT no5a1-1: max_frac_infectivity_at_least
+serum_replicates: {}

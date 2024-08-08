@@ -67,17 +67,14 @@ plate5:
     CCTTTCTCAAAACATA D10042d182: max_frac_infectivity_at_least
     CGCCTAATGTTAATAA D10042d182: max_frac_infectivity_at_least
     TTCACTAAGATTTCAT D10042d182: max_frac_infectivity_at_least
+    AATAAGTATACGGGAT D10042d182: goodness_of_fit
     ACATGAATTCAGACGG D10042d182: goodness_of_fit
-    AGCAGCCTGAAAATAT D10042d182: goodness_of_fit
     CACCATTAAAGAGGTA D10042d182: goodness_of_fit
     CCCTATGCTGCGTATT D10042d182: goodness_of_fit
     CTAGCAGATTGTATAA D10042d182: goodness_of_fit
-    CTATTAATCATGCAAA D10042d182: goodness_of_fit
-    GAGACGTACGAAATTA D10042d182: goodness_of_fit
     GTTCCTTTAAGCCAAA D10042d182: goodness_of_fit
     GTTTGACAATCACTAC D10042d182: goodness_of_fit
     TAGTATAATAGAGCAG D10042d182: goodness_of_fit
-    TTGTCCCGAGACAACA D10042d182: goodness_of_fit
     AAGAGAAATATTCGCT D10253d0: goodness_of_fit
     CCTTTCTCAAAACATA D10253d0: goodness_of_fit
     CTAGCAGATTGTATAA D10253d0: goodness_of_fit
@@ -216,4 +213,56 @@ plate13:
   barcode_wells: {}
   barcode_serum_replicates:
     CCTTTCTCAAAACATA D10042d0: goodness_of_fit
+  serum_replicates: {}
+plate14lib:
+  wells: {}
+  barcodes: {}
+  barcode_wells:
+    TTGTCCCGAGACAACA H1: min_no_serum_count_per_viral_barcode_well
+    ACGGAATCCCCTGAGA G12: min_no_serum_count_per_viral_barcode_well
+  barcode_serum_replicates: {}
+  serum_replicates: {}
+plate14halflib:
+  wells: {}
+  barcodes: {}
+  barcode_wells:
+    GAGACGTACGAAATTA F1: min_no_serum_count_per_viral_barcode_well
+    CAGTTCTGCGACCAGC F1: min_no_serum_count_per_viral_barcode_well
+    GCTGCGCCTAACATAA F1: min_no_serum_count_per_viral_barcode_well
+    CGGATAAAAATGATAT F1: min_no_serum_count_per_viral_barcode_well
+    ACGGAATCCCCTGAGA F1: min_no_serum_count_per_viral_barcode_well
+    CAGTTCTGCGACCAGC E12: min_no_serum_count_per_viral_barcode_well
+    CAGTTCTGCGACCAGC F12: min_no_serum_count_per_viral_barcode_well
+    GCTGCGCCTAACATAA F12: min_no_serum_count_per_viral_barcode_well
+  barcode_serum_replicates:
+    TACTCAACAAGATAAA halflibconc-1: max_frac_infectivity_at_least
+    GCAATCCCGCAATTTG halflibconc-2: max_frac_infectivity_at_least
+    GCAATCCCGCAATTTG halflibconc-1: goodness_of_fit
+    ACGGAATCCCCTGAGA halflibconc-2: goodness_of_fit
+    CGTAATACATTTAAGA halflibconc-2: goodness_of_fit
+  serum_replicates: {}
+plate14no5a1:
+  wells: {}
+  barcodes:
+    ACGGAATCCCCTGAGA: min_neut_standard_frac_per_well
+    CACCATTAAAGAGGTA: min_neut_standard_frac_per_well
+    CGGCGTATCGTTCACA: min_neut_standard_frac_per_well
+    CTAGCAGATTGTATAA: min_neut_standard_frac_per_well
+  barcode_wells:
+    CAGTTCTGCGACCAGC C1: min_no_serum_count_per_viral_barcode_well
+  barcode_serum_replicates:
+    CCCTATGCTGCGTATT no5a1-1: max_frac_infectivity_at_least
+    TCCTTGTAATTCAACT no5a1-1: max_frac_infectivity_at_least
+  serum_replicates: {}
+plate14no5a2:
+  wells: {}
+  barcodes:
+    AAATCTACCGCATTAT: min_neut_standard_frac_per_well
+    CGTTTAAACAATGAAG: min_neut_standard_frac_per_well
+  barcode_wells:
+    ACGGAATCCCCTGAGA B1: min_no_serum_count_per_viral_barcode_well
+    AATAAGTATACGGGAT B12: min_no_serum_count_per_viral_barcode_well
+    ACGGAATCCCCTGAGA B12: min_no_serum_count_per_viral_barcode_well
+  barcode_serum_replicates:
+    CGGATAAAAATGATAT no5a2-2: goodness_of_fit
   serum_replicates: {}

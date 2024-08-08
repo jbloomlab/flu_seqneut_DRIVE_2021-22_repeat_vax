@@ -80,3 +80,7 @@ DRIVE,D10417d182,plate9
 DRIVE,D10417d30,plate9
 DRIVE,D10426d0,plate7
 DRIVE,D10426d30,plate7
+Validation,fulllibconc,plate14lib
+Validation,halflibconc,plate14halflib
+Validation,no5a1,plate14no5a1
+Validation,no5a2,plate14no5a2

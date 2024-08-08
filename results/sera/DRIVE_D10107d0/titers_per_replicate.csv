@@ -1,8 +1,8 @@
 group,serum,virus,replicate,titer,titer_bound,titer_as,nt50,midpoint,top,bottom,slope
 DRIVE,D10107d0,A/California/07/2009,plate3-CGCCTAATGTTAATAA,4159,interpolated,midpoint,5690,4159,0.8891,0,0.8
 DRIVE,D10107d0,A/California/07/2009,plate3-CATGTGAATTCGCCCA,1130,interpolated,midpoint,1268,1130,0.7803,0,5.01
-DRIVE,D10107d0,A/California/07/2009,plate3-CCTTTCTCAAAACATA,1703,interpolated,midpoint,2000,1703,0.6,0,10
-DRIVE,D10107d0,A/California/07/2009,plate3-GACACAGAACCCATGC,1404,interpolated,midpoint,2792,1404,0.6,0,2.341
+DRIVE,D10107d0,A/California/07/2009,plate3-CCTTTCTCAAAACATA,1664,interpolated,midpoint,2262,1664,0.5232,0,10
+DRIVE,D10107d0,A/California/07/2009,plate3-GACACAGAACCCATGC,1315,interpolated,midpoint,2500,1315,0.5619,0,3.252
 DRIVE,D10107d0,A/Paris/31196/2021,plate3-AAACTAAAAGCAAGGG,491.4,interpolated,midpoint,502.1,491.4,0.9036,0,10
 DRIVE,D10107d0,A/Paris/31196/2021,plate3-AGCAGCCTGAAAATAT,586.1,interpolated,midpoint,596.1,586.1,0.922,0,10
 DRIVE,D10107d0,A/Paris/31196/2021,plate3-AATAAGTATACGGGAT,613.4,interpolated,midpoint,621.7,613.4,0.937,0,10
