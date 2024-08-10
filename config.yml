@@ -60,8 +60,8 @@ default_process_plate_curvefit_params: &default_process_plate_curvefit_params
 default_process_plate_curvefit_qc:  &default_process_plate_curvefit_qc
   max_frac_infectivity_at_least: 0.5
   goodness_of_fit:
-    min_R2: 0.75
-    max_RMSD: 0.2
+    min_R2: 0.6
+    max_RMSD: 0.1
   serum_replicates_ignore_curvefit_qc: []
   barcode_serum_replicates_ignore_curvefit_qc: []
 

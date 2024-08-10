@@ -5,7 +5,7 @@ DRIVE,D10256d0,A/Bangladesh/8002/2021,796.4,interpolated,140.4,6,midpoint
 DRIVE,D10256d0,A/Bangladesh/8036/2021,2321,interpolated,663.9,6,midpoint
 DRIVE,D10256d0,A/Belgium/H0017/2022,1.639e+04,interpolated,1110,5,midpoint
 DRIVE,D10256d0,A/Belgium/H0038/2022,1.071e+04,interpolated,2659,5,midpoint
-DRIVE,D10256d0,A/Brisbane/02/2018,1.451e+04,interpolated,3711,7,midpoint
+DRIVE,D10256d0,A/Brisbane/02/2018,1.086e+04,interpolated,3405,8,midpoint
 DRIVE,D10256d0,A/Brisbane/48/2022,1620,interpolated,176.9,6,midpoint
 DRIVE,D10256d0,A/California/07/2009,1.029e+04,interpolated,1767,8,midpoint
 DRIVE,D10256d0,A/Chester/5355/2022,1304,interpolated,331.8,6,midpoint
@@ -22,7 +22,7 @@ DRIVE,D10256d0,A/Michigan/45/2015,1.124e+04,interpolated,2418,8,midpoint
 DRIVE,D10256d0,A/Newcastle/2/2022,1065,interpolated,225.7,6,midpoint
 DRIVE,D10256d0,A/Niger/10217/2021,9749,interpolated,1311,5,midpoint
 DRIVE,D10256d0,A/Nimes/871/2021,1.306e+04,interpolated,4416,6,midpoint
-DRIVE,D10256d0,A/Norway/25089/2022,229.4,interpolated,70,5,midpoint
+DRIVE,D10256d0,A/Norway/25089/2022,350.9,interpolated,61.65,6,midpoint
 DRIVE,D10256d0,A/Paris/30353/2021,1.403e+04,interpolated,5131,6,midpoint
 DRIVE,D10256d0,A/Paris/31196/2021,1.717e+04,interpolated,2186,6,midpoint
 DRIVE,D10256d0,A/Perth/1/2022,1455,interpolated,323.7,6,midpoint

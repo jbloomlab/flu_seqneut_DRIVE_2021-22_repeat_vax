@@ -14,5 +14,4 @@ barcode_serum_replicates:
   GCAATCCCGCAATTTG halflibconc-2: max_frac_infectivity_at_least
   GCAATCCCGCAATTTG halflibconc-1: goodness_of_fit
   ACGGAATCCCCTGAGA halflibconc-2: goodness_of_fit
-  CGTAATACATTTAAGA halflibconc-2: goodness_of_fit
 serum_replicates: {}

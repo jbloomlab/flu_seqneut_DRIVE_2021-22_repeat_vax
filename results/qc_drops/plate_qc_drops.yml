@@ -2,8 +2,7 @@ plate1:
   wells: {}
   barcodes: {}
   barcode_wells: {}
-  barcode_serum_replicates:
-    CCTTTCTCAAAACATA D10002d0: goodness_of_fit
+  barcode_serum_replicates: {}
   serum_replicates: {}
 plate2:
   wells: {}
@@ -27,8 +26,6 @@ plate3:
     TACCGTATAATTAAAA D10107d30: max_frac_infectivity_at_least
     TCGAGAACACCCATAA D10107d30: max_frac_infectivity_at_least
     TGAGGATAATCACAAG D10107d30: max_frac_infectivity_at_least
-    GACAGCAATGCATACA D10054d0: goodness_of_fit
-    CCCTATGCTGCGTATT D10107d0: goodness_of_fit
   serum_replicates: {}
 plate4:
   wells: {}
@@ -67,17 +64,14 @@ plate5:
     CCTTTCTCAAAACATA D10042d182: max_frac_infectivity_at_least
     CGCCTAATGTTAATAA D10042d182: max_frac_infectivity_at_least
     TTCACTAAGATTTCAT D10042d182: max_frac_infectivity_at_least
+    AACTCCGCAGACACTG D10042d182: goodness_of_fit
     AATAAGTATACGGGAT D10042d182: goodness_of_fit
     ACATGAATTCAGACGG D10042d182: goodness_of_fit
     CACCATTAAAGAGGTA D10042d182: goodness_of_fit
-    CCCTATGCTGCGTATT D10042d182: goodness_of_fit
-    CTAGCAGATTGTATAA D10042d182: goodness_of_fit
-    GTTCCTTTAAGCCAAA D10042d182: goodness_of_fit
+    CTATTAATCATGCAAA D10042d182: goodness_of_fit
+    GCTGCGCCTAACATAA D10042d182: goodness_of_fit
     GTTTGACAATCACTAC D10042d182: goodness_of_fit
-    TAGTATAATAGAGCAG D10042d182: goodness_of_fit
-    AAGAGAAATATTCGCT D10253d0: goodness_of_fit
-    CCTTTCTCAAAACATA D10253d0: goodness_of_fit
-    CTAGCAGATTGTATAA D10253d0: goodness_of_fit
+    TTGTCCCGAGACAACA D10042d182: goodness_of_fit
   serum_replicates: {}
 plate6:
   wells:
@@ -112,9 +106,6 @@ plate6:
     GCTGCGCCTAACATAA H11: max_frac_infectivity_per_viral_barcode_well
   barcode_serum_replicates:
     ACGACATGATCAAACG D10212d182: manual_drop
-    CGGATAAAAATGATAT D10193d30: goodness_of_fit
-    TAGTATAATAGAGCAG D10212d0: goodness_of_fit
-    ATCCGATTTAAAGGCA D10256d0: goodness_of_fit
   serum_replicates: {}
 plate7:
   wells: {}
@@ -123,8 +114,6 @@ plate7:
     AGTCCTATCCTCAAAT C8: max_frac_infectivity_per_viral_barcode_well
   barcode_serum_replicates:
     TCTGCTAAACTAAGTA D10007d0: goodness_of_fit
-    CAGTTCTGCGACCAGC D10426d0: goodness_of_fit
-    CCTTTCTCAAAACATA D10426d0: goodness_of_fit
   serum_replicates: {}
 plate8:
   wells: {}
@@ -141,13 +130,9 @@ plate8:
     CTATTAATCATGCAAA D10396d0: manual_drop
     TGGAATCGTCACCGAT D10396d30: manual_drop
     AGCAGCCTGAAAATAT D10066d0: goodness_of_fit
-    AGTCCTATCCTCAAAT D10066d0: goodness_of_fit
-    AGTGTCCCTAAGAGGC D10244d182: goodness_of_fit
+    TAGTATAATAGAGCAG D10066d0: goodness_of_fit
     CATGTGAATTCGCCCA D10244d182: goodness_of_fit
-    GCTGCGCCTAACATAA D10244d182: goodness_of_fit
-    TCCTTGTAATTCAACT D10244d30: goodness_of_fit
     TAGTATAATAGAGCAG D10396d0: goodness_of_fit
-    TCTGCTAAACTAAGTA D10396d0: goodness_of_fit
   serum_replicates: {}
 plate9:
   wells: {}
@@ -158,7 +143,9 @@ plate9:
   barcode_serum_replicates:
     CGGATAAAAATGATAT D10417d30: manual_drop
     AGAGAAAAAACAGTGA D10291d0: goodness_of_fit
+    ATGTCCATAAAAAATA D10291d0: goodness_of_fit
     CCTTTCTCAAAACATA D10291d0: goodness_of_fit
+    TTGGGGAAATATATAA D10291d0: goodness_of_fit
   serum_replicates: {}
 plate10:
   wells:
@@ -173,8 +160,6 @@ plate10:
     AGCAGCCTGAAAATAT D10175d30: manual_drop
     GACTCAATAATCACAC D10175d182: manual_drop
     TAGTATAATAGAGCAG D10175d182: max_frac_infectivity_at_least
-    TAGTATAATAGAGCAG D10041d30: goodness_of_fit
-    CGGATAAAAATGATAT D10384d182: goodness_of_fit
     CGGATAAAAATGATAT D10384d30: goodness_of_fit
   serum_replicates: {}
 plate11:
@@ -198,13 +183,6 @@ plate11:
     ACGGAATCCCCTGAGA D10041d30: manual_drop
     GATCCGTACTTTGATT D10256d0: manual_drop
     CATCAACCGCCATTTC D10256d0: manual_drop
-    ACGACATGATCAAACG D10041d0: goodness_of_fit
-    CAGTTCTGCGACCAGC D10041d0: goodness_of_fit
-    CCTTTCTCAAAACATA D10041d0: goodness_of_fit
-    ACAGCAAATACTCACA D10041d30: goodness_of_fit
-    CTAGCAGATTGTATAA D10041d30: goodness_of_fit
-    TTGTCCCGAGACAACA D10041d30: goodness_of_fit
-    CGGATAAAAATGATAT D10256d0: goodness_of_fit
   serum_replicates: {}
 plate13:
   wells:
@@ -239,7 +217,6 @@ plate14halflib:
     GCAATCCCGCAATTTG halflibconc-2: max_frac_infectivity_at_least
     GCAATCCCGCAATTTG halflibconc-1: goodness_of_fit
     ACGGAATCCCCTGAGA halflibconc-2: goodness_of_fit
-    CGTAATACATTTAAGA halflibconc-2: goodness_of_fit
   serum_replicates: {}
 plate14no5a1:
   wells: {}
@@ -263,6 +240,5 @@ plate14no5a2:
     ACGGAATCCCCTGAGA B1: min_no_serum_count_per_viral_barcode_well
     AATAAGTATACGGGAT B12: min_no_serum_count_per_viral_barcode_well
     ACGGAATCCCCTGAGA B12: min_no_serum_count_per_viral_barcode_well
-  barcode_serum_replicates:
-    CGGATAAAAATGATAT no5a2-2: goodness_of_fit
+  barcode_serum_replicates: {}
   serum_replicates: {}

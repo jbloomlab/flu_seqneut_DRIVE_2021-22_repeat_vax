@@ -107,6 +107,7 @@ Validation,halflibconc,A/England/220200318/2022,plate14halflib-1-CGTAATACATTTAAG
 Validation,halflibconc,A/England/220200318/2022,plate14halflib-1-GACCAACTGTGGTACA,0.0002817,interpolated,0.0003001,0.0003001,interpolated,3.96,0.8893,0,0.8988,0.1401
 Validation,halflibconc,A/England/220200318/2022,plate14halflib-1-GCTGCGCCTAACATAA,0.0001245,interpolated,0.0001297,0.0001297,interpolated,5.224,0.9048,0,0.9734,0.07122
 Validation,halflibconc,A/England/220200318/2022,plate14halflib-2-GACCAACTGTGGTACA,0.0005242,interpolated,0.000528,0.000528,interpolated,10,0.9654,0,0.9829,0.05997
+Validation,halflibconc,A/England/220200318/2022,plate14halflib-2-CGTAATACATTTAAGA,0.0008058,interpolated,0.0009018,0.0009018,interpolated,8.063,0.7019,0,0.6919,0.2132
 Validation,halflibconc,A/England/220200318/2022,plate14halflib-2-GCTGCGCCTAACATAA,0.0004338,interpolated,0.000488,0.000488,interpolated,10,0.6541,0,0.7144,0.1983
 Validation,halflibconc,A/Togo/845/2020,plate14halflib-1-TTACCGTCTACGCATA,2.34e-05,interpolated,2.372e-05,2.372e-05,interpolated,10,0.9378,0,0.9873,0.04825
 Validation,halflibconc,A/Togo/845/2020,plate14halflib-1-GCATGGATCCTTTACT,6.241e-05,interpolated,6.328e-05,6.328e-05,interpolated,1.7,0.9884,0,0.9794,0.06416

@@ -1,7 +1,7 @@
 group,serum,virus,titer,titer_bound,titer_sem,n_replicates,titer_as
 DRIVE,D10244d182,A/Bangladesh/2221/2021,2212,interpolated,323.7,3,midpoint
 DRIVE,D10244d182,A/Bangladesh/3210810034/2021,4946,interpolated,109.3,2,midpoint
-DRIVE,D10244d182,A/Bangladesh/8002/2021,7991,interpolated,1969,2,midpoint
+DRIVE,D10244d182,A/Bangladesh/8002/2021,6022,interpolated,1872,3,midpoint
 DRIVE,D10244d182,A/Bangladesh/8036/2021,1.031e+04,interpolated,565.6,3,midpoint
 DRIVE,D10244d182,A/Belgium/H0017/2022,439.9,interpolated,325.2,3,midpoint
 DRIVE,D10244d182,A/Belgium/H0038/2022,1.127e+04,interpolated,1165,3,midpoint
@@ -10,7 +10,7 @@ DRIVE,D10244d182,A/Brisbane/48/2022,9717,interpolated,181.6,3,midpoint
 DRIVE,D10244d182,A/California/07/2009,1.55e+04,interpolated,284.6,3,midpoint
 DRIVE,D10244d182,A/Chester/5355/2022,5127,interpolated,330.2,3,midpoint
 DRIVE,D10244d182,A/Cote_DIvoire/1448/2021,1.339e+04,interpolated,3062,3,midpoint
-DRIVE,D10244d182,A/England/220200318/2022,560.5,interpolated,258.3,2,midpoint
+DRIVE,D10244d182,A/England/220200318/2022,599,interpolated,149.7,3,midpoint
 DRIVE,D10244d182,A/Ghana/138/2020,1.383e+04,interpolated,742.6,3,midpoint
 DRIVE,D10244d182,A/Ghana/2080/2020,1.396e+04,interpolated,1284,3,midpoint
 DRIVE,D10244d182,A/Hawaii/70/2019,1.094e+04,interpolated,929,4,midpoint

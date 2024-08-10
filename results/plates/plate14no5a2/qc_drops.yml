@@ -6,6 +6,5 @@ barcode_wells:
   ACGGAATCCCCTGAGA B1: min_no_serum_count_per_viral_barcode_well
   AATAAGTATACGGGAT B12: min_no_serum_count_per_viral_barcode_well
   ACGGAATCCCCTGAGA B12: min_no_serum_count_per_viral_barcode_well
-barcode_serum_replicates:
-  CGGATAAAAATGATAT no5a2-2: goodness_of_fit
+barcode_serum_replicates: {}
 serum_replicates: {}

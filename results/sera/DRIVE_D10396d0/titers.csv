@@ -1,7 +1,7 @@
 group,serum,virus,titer,titer_bound,titer_sem,n_replicates,titer_as
 DRIVE,D10396d0,A/Bangladesh/2221/2021,87.13,interpolated,20.73,6,midpoint
 DRIVE,D10396d0,A/Bangladesh/3210810034/2021,161.2,interpolated,55.71,4,midpoint
-DRIVE,D10396d0,A/Bangladesh/8002/2021,66.44,interpolated,6.919,5,midpoint
+DRIVE,D10396d0,A/Bangladesh/8002/2021,71.9,interpolated,20.89,6,midpoint
 DRIVE,D10396d0,A/Bangladesh/8036/2021,134,interpolated,28.71,6,midpoint
 DRIVE,D10396d0,A/Belgium/H0017/2022,134.5,interpolated,81.88,6,midpoint
 DRIVE,D10396d0,A/Belgium/H0038/2022,189.1,interpolated,56.3,6,midpoint
