@@ -53,15 +53,15 @@ default_process_plate_qc_thresholds: &default_process_plate_qc_thresholds
 
 default_process_plate_curvefit_params: &default_process_plate_curvefit_params
   frac_infectivity_ceiling: 1
-  fixtop: [0.6,1]
+  fixtop: [0.5,1]
   fixbottom: 0
   fixslope: [0.8, 10]
 
 default_process_plate_curvefit_qc:  &default_process_plate_curvefit_qc
   max_frac_infectivity_at_least: 0.5
   goodness_of_fit:
-    min_R2: 0.75
-    max_RMSD: 0.2
+    min_R2: 0.6
+    max_RMSD: 0.1
   serum_replicates_ignore_curvefit_qc: []
   barcode_serum_replicates_ignore_curvefit_qc: []
 
@@ -263,6 +263,74 @@ plates:
       <<: *default_process_plate_curvefit_params
     curvefit_qc:
       <<: *default_process_plate_curvefit_qc
+
+  plate14lib:
+    group: Validation
+    date: 2023-08-07
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate14fulllib_samples.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GCTACA
+      upstream2_mismatch: 1
+
+  plate14halflib:
+    group: Validation
+    date: 2023-08-07
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate14fhalflib_samples.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GCTACA
+      upstream2_mismatch: 1
+
+  plate14no5a1:
+    group: Validation
+    date: 2023-08-07
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate14no5a1_samples.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GCTACA
+      upstream2_mismatch: 1
+
+  plate14no5a2:
+    group: Validation
+    date: 2023-08-07
+    viral_library: pdmH1N1_lib2023_loes
+    neut_standard_set: loes2023
+    samples_csv: data/plates/plate14no5a2_samples.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GCTACA
+      upstream2_mismatch: 1
 
 default_serum_titer_as: midpoint
 

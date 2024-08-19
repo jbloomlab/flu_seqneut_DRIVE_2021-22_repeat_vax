@@ -1,0 +1,10 @@
+wells: {}
+barcodes:
+  AAATCTACCGCATTAT: min_neut_standard_frac_per_well
+  CGTTTAAACAATGAAG: min_neut_standard_frac_per_well
+barcode_wells:
+  ACGGAATCCCCTGAGA B1: min_no_serum_count_per_viral_barcode_well
+  AATAAGTATACGGGAT B12: min_no_serum_count_per_viral_barcode_well
+  ACGGAATCCCCTGAGA B12: min_no_serum_count_per_viral_barcode_well
+barcode_serum_replicates: {}
+serum_replicates: {}

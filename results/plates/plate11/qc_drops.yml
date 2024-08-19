@@ -18,11 +18,4 @@ barcode_serum_replicates:
   ACGGAATCCCCTGAGA D10041d30: manual_drop
   GATCCGTACTTTGATT D10256d0: manual_drop
   CATCAACCGCCATTTC D10256d0: manual_drop
-  ACGACATGATCAAACG D10041d0: goodness_of_fit
-  CAGTTCTGCGACCAGC D10041d0: goodness_of_fit
-  CCTTTCTCAAAACATA D10041d0: goodness_of_fit
-  ACAGCAAATACTCACA D10041d30: goodness_of_fit
-  CTAGCAGATTGTATAA D10041d30: goodness_of_fit
-  TTGTCCCGAGACAACA D10041d30: goodness_of_fit
-  CGGATAAAAATGATAT D10256d0: goodness_of_fit
 serum_replicates: {}

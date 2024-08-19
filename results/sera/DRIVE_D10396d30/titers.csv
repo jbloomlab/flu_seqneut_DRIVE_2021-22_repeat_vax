@@ -7,7 +7,7 @@ DRIVE,D10396d30,A/Belgium/H0017/2022,951.6,interpolated,206.6,6,midpoint
 DRIVE,D10396d30,A/Belgium/H0038/2022,1229,interpolated,196.1,6,midpoint
 DRIVE,D10396d30,A/Brisbane/02/2018,2519,interpolated,361.6,8,midpoint
 DRIVE,D10396d30,A/Brisbane/48/2022,1358,interpolated,136.4,6,midpoint
-DRIVE,D10396d30,A/California/07/2009,3.239e+04,interpolated,4273,8,midpoint
+DRIVE,D10396d30,A/California/07/2009,3.239e+04,interpolated,4434,8,midpoint
 DRIVE,D10396d30,A/Chester/5355/2022,1437,interpolated,342.1,6,midpoint
 DRIVE,D10396d30,A/Cote_DIvoire/1448/2021,911.5,interpolated,208.9,6,midpoint
 DRIVE,D10396d30,A/England/220200318/2022,1300,interpolated,184.6,6,midpoint
@@ -17,8 +17,8 @@ DRIVE,D10396d30,A/Hawaii/70/2019,896.4,interpolated,138.1,7,midpoint
 DRIVE,D10396d30,A/India-PUN-NIV328484/2021,1528,interpolated,183.3,6,midpoint
 DRIVE,D10396d30,A/India-Pune-Nivcov2221170/2022,712.8,interpolated,209.4,4,midpoint
 DRIVE,D10396d30,A/India/Pun-NIV312851/2021,1405,interpolated,283.8,6,midpoint
-DRIVE,D10396d30,A/Michigan/19/2021,1443,interpolated,248.5,6,midpoint
-DRIVE,D10396d30,A/Michigan/45/2015,1.594e+04,interpolated,2392,8,midpoint
+DRIVE,D10396d30,A/Michigan/19/2021,1443,interpolated,240.2,6,midpoint
+DRIVE,D10396d30,A/Michigan/45/2015,1.594e+04,interpolated,2398,8,midpoint
 DRIVE,D10396d30,A/Newcastle/2/2022,1110,interpolated,236.7,6,midpoint
 DRIVE,D10396d30,A/Niger/10217/2021,1112,interpolated,179.4,6,midpoint
 DRIVE,D10396d30,A/Nimes/871/2021,1266,interpolated,279.6,6,midpoint
@@ -33,5 +33,5 @@ DRIVE,D10396d30,A/Togo/0274/2021,783.1,interpolated,377.1,6,midpoint
 DRIVE,D10396d30,A/Togo/0304/2021,1332,interpolated,325.2,6,midpoint
 DRIVE,D10396d30,A/Togo/845/2020,690.5,interpolated,200.9,6,midpoint
 DRIVE,D10396d30,A/Utah/27/2022,983.2,interpolated,329.8,6,midpoint
-DRIVE,D10396d30,A/Washington/23/2020,5967,interpolated,357.7,6,midpoint
-DRIVE,D10396d30,A/Wisconsin/588/2019,4436,interpolated,439.1,6,midpoint
+DRIVE,D10396d30,A/Washington/23/2020,5950,interpolated,359.8,6,midpoint
+DRIVE,D10396d30,A/Wisconsin/588/2019,4428,interpolated,438.4,6,midpoint

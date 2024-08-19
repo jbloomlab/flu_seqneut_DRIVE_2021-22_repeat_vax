@@ -13,6 +13,4 @@ barcode_serum_replicates:
   TACCGTATAATTAAAA D10107d30: max_frac_infectivity_at_least
   TCGAGAACACCCATAA D10107d30: max_frac_infectivity_at_least
   TGAGGATAATCACAAG D10107d30: max_frac_infectivity_at_least
-  GACAGCAATGCATACA D10054d0: goodness_of_fit
-  CCCTATGCTGCGTATT D10107d0: goodness_of_fit
 serum_replicates: {}

@@ -1,6 +1,6 @@
 group,serum,virus,replicate,titer,titer_bound,titer_as,nt50,midpoint,top,bottom,slope
 DRIVE,D10002d30,A/Washington/23/2020,plate1-GGATAAGAAAACTACT,3227,interpolated,midpoint,4458,3227,0.8549,0,1.061
-DRIVE,D10002d30,A/Washington/23/2020,plate1-GAACTGGCGTCAATCA,1694,interpolated,midpoint,1786,1694,0.8124,0,8.903
+DRIVE,D10002d30,A/Washington/23/2020,plate1-GAACTGGCGTCAATCA,1694,interpolated,midpoint,1786,1694,0.8124,0,8.9
 DRIVE,D10002d30,A/Washington/23/2020,plate1-ACGGAATCCCCTGAGA,874.3,interpolated,midpoint,921.3,874.3,0.8691,0,5.789
 DRIVE,D10002d30,A/Togo/0304/2021,plate1-GAAGAATGGTTTTCTG,614.3,interpolated,midpoint,647.7,614.3,0.7945,0,10
 DRIVE,D10002d30,A/Togo/0304/2021,plate1-AACTCTAAAGATATAA,589.3,interpolated,midpoint,595.7,589.3,0.9491,0,10

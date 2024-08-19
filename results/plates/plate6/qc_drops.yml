@@ -30,7 +30,4 @@ barcode_wells:
   GCTGCGCCTAACATAA H11: max_frac_infectivity_per_viral_barcode_well
 barcode_serum_replicates:
   ACGACATGATCAAACG D10212d182: manual_drop
-  CGGATAAAAATGATAT D10193d30: goodness_of_fit
-  TAGTATAATAGAGCAG D10212d0: goodness_of_fit
-  ATCCGATTTAAAGGCA D10256d0: goodness_of_fit
 serum_replicates: {}

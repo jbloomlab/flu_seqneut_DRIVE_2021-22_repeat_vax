@@ -2,12 +2,12 @@ group,serum,virus,titer,titer_bound,titer_sem,n_replicates,titer_as
 DRIVE,D10041d0,A/Bangladesh/2221/2021,202.2,interpolated,24.9,6,midpoint
 DRIVE,D10041d0,A/Bangladesh/3210810034/2021,196.4,interpolated,27.82,4,midpoint
 DRIVE,D10041d0,A/Bangladesh/8002/2021,153.9,interpolated,16.43,6,midpoint
-DRIVE,D10041d0,A/Bangladesh/8036/2021,252,interpolated,31.13,5,midpoint
+DRIVE,D10041d0,A/Bangladesh/8036/2021,296.3,interpolated,49.1,6,midpoint
 DRIVE,D10041d0,A/Belgium/H0017/2022,487,interpolated,26.91,6,midpoint
 DRIVE,D10041d0,A/Belgium/H0038/2022,478,interpolated,42.14,6,midpoint
-DRIVE,D10041d0,A/Brisbane/02/2018,727.2,interpolated,109.1,7,midpoint
+DRIVE,D10041d0,A/Brisbane/02/2018,683.7,interpolated,103.7,8,midpoint
 DRIVE,D10041d0,A/Brisbane/48/2022,305.8,interpolated,36.83,6,midpoint
-DRIVE,D10041d0,A/California/07/2009,2233,interpolated,189.5,7,midpoint
+DRIVE,D10041d0,A/California/07/2009,2197,interpolated,180.1,8,midpoint
 DRIVE,D10041d0,A/Chester/5355/2022,331.5,interpolated,38.35,6,midpoint
 DRIVE,D10041d0,A/Cote_DIvoire/1448/2021,456.3,interpolated,62.85,6,midpoint
 DRIVE,D10041d0,A/England/220200318/2022,561.1,interpolated,63.47,6,midpoint

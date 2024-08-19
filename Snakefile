@@ -19,6 +19,7 @@ rule all:
         "results/plots_for_paper/plot_specific_sera/curves.pdf",
         expand(join("results/librarytiterbarcodecounts","counts", "{sample}_counts.csv"),sample=samples_initialpool),
         "results/librarytiterbarcodecounts/repoolingstrains_volumetoadd.csv",
+        "results/plots_for_paper/variation_in_titers_librarycomp.html",
 
 rule count_barcodes_initialpool:
     """Count barcodes for each sample."""
@@ -102,3 +103,18 @@ rule summarize_titers:
         notebook="results/plots_for_paper/summarize_titers.ipynb",
     notebook:
         "notebooks/summarize_titers.py.ipynb"
+
+rule assessing_competition:
+    """Plot correlations between experimental replicates. Test library pooling."""
+    input:
+        curvefits_pickle="results/aggregated_titers/curvefits_Validation.pickle",
+        input_titers="results/aggregated_titers/titers_Validation.csv",
+        viral_strain_plot_order=config["viral_strain_plot_order"],
+    output:
+        titers_chart_html="results/plots_for_paper/variation_in_titers_librarycomp.html",
+    log:
+        notebook="results/plots_for_paper/plot_specific_sera/assessing_competition.ipynb",
+    conda:
+        "seqneut-pipeline/environment.yml"
+    notebook:
+        "notebooks/assessing_competition.py.ipynb"

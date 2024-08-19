@@ -6,5 +6,7 @@ barcode_wells:
 barcode_serum_replicates:
   CGGATAAAAATGATAT D10417d30: manual_drop
   AGAGAAAAAACAGTGA D10291d0: goodness_of_fit
+  ATGTCCATAAAAAATA D10291d0: goodness_of_fit
   CCTTTCTCAAAACATA D10291d0: goodness_of_fit
+  TTGGGGAAATATATAA D10291d0: goodness_of_fit
 serum_replicates: {}
