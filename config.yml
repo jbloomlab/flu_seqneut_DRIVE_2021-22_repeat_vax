@@ -11,7 +11,7 @@ description: |
   # Sequencing-based neutralization assays of 2021-2022 DRIVE samples versus H1N1 influenza libraries
   Study by Loes et al of samples from the DRIVE cohort using sequencing-based neutralization assay developed in the Bloom lab.
 
-  See [Loes et al (2024)](https://doi.org/10.1101/2024.03.08.584176) for the citation for this study.
+  See [Loes et al (2024)](https://doi.org/10.1128/jvi.00689-24) for the citation for this study.
 
   The numerical data and computer code are at [https://github.com/jbloomlab/flu_seqneut_DRIVE_2021-22_repeat_vax](https://github.com/jbloomlab/flu_seqneut_DRIVE_2021-22_repeat_vax)
 
